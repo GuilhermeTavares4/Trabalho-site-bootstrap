@@ -1,0 +1,51 @@
+#carrinho {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+#carrinho > * {
+    flex-grow: 1;
+    padding: 30px 0 10px 20px;
+}
+
+.compras{
+    height: 70px;
+    width: 270px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 20px 0 10px 0;
+    text-align:center;
+    line-height: 64px;
+    background-color: white;
+}
+
+#segundacoluna{
+    line-height:40px;
+}
+
+label, .preco {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size:15px;
+}
+
+#pag {
+    width: 160px;
+    padding: 2px 5px 2px 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    background-color: silver;
+}
+
+#pag:hover {
+    background-color: rgb(172, 172, 172);
+}

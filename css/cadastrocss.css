@@ -1,0 +1,61 @@
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main > * {
+    align-self: center;
+}
+
+form {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+fieldset {
+    padding: 0 15px 15px 15px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+legend {
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+fieldset > * {
+    margin: 0 0 20px 0;
+}
+
+fieldset > input {
+    padding: 2.5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 0.75em;
+}
+
+#enfeite {
+    height:100px;
+    width: 100px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    margin: 0 100px 0 100px;
+    text-align: center;
+}
+
+#enfeite > p {
+    padding-top: 35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.facebookgoogle {
+    height: 35px;
+}

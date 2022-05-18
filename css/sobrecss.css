@@ -1,0 +1,17 @@
+main {
+    text-align: center;
+}
+
+main > p {
+    margin: 30px 40px 30px 40px;
+}
+
+main > ul > li {
+    margin: 30px 250px 30px 250px;
+}
+
+iframe {
+    height: 315px;
+    width: 560px;
+    margin: 40px;
+}

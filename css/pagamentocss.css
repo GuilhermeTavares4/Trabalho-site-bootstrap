@@ -1,0 +1,38 @@
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+form > * {
+    flex-grow: 1;
+}
+
+.data{
+    width: 50px;
+}
+
+input, select{
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size:15px;
+}
+
+#confirmar{
+    width: 160px;
+    padding: 2px 5px 2px 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    background-color: silver;
+}
+
+#confirmar:hover {
+    background-color: rgb(172, 172, 172);
+}

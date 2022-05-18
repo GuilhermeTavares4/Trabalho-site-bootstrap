@@ -1,0 +1,80 @@
+
+#produto {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    padding-top: 25px;
+}
+
+#produto > * {
+    flex-grow: 1;
+    padding: 30px 0 10px 20px;
+}
+
+main img {
+    height: 300px;
+    border-radius: 5px;
+}
+
+#informações > h1 {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+#informações > span:not(.avaliacao), figcaption {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+#tamanhos {
+    display: flex;
+}
+
+#tamanhos > div {
+    padding: 10px;
+    border:1px solid black;
+    border-radius: 3px;
+    margin:5px;
+    text-align:center;
+    font-size: 15px;
+    line-height: 10px;
+    font-weight: 600;
+    background-color: white;
+}
+
+#tamanhos >div:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+caption {
+    text-align: start;
+    margin-bottom: 5px;
+}
+
+table {
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+td,tr,th {
+    margin-top: 5px;
+    border:1px solid black;
+    padding:4px;
+}
+
+button {
+    width: 160px;
+    padding: 2px 5px 2px 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    background-color: silver;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(172, 172, 172);
+}
