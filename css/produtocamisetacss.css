@@ -47,6 +47,11 @@ td,tr,th {
     flex-grow:0!important;
 }
 
+[class^="carousel-control"]{
+    top:40%!important;
+    height:60px;
+}
+
 [class^="carousel-control"]:hover {
     background-color:rgb(226, 226, 226);
 }
