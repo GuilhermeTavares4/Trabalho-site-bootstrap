@@ -1,22 +1,13 @@
-main {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-main > * {
-    align-self: center;
-}
 
 form {
     font-size: 20px;
-    padding-top: 20px;
+    
 }
 
 fieldset {
-    padding: 0 15px 15px 15px;
-    border: 1px solid black;
-    border-radius: 2px;
+    padding: 0 15px 15px 15px!important;
+    border: 1px solid black!important;
+    border-radius: 6px!important;
 }
 
 legend {
@@ -24,16 +15,6 @@ legend {
     font-weight: 500;
 }
 
-fieldset > * {
-    margin: 0 0 20px 0;
-}
-
-fieldset > input {
-    padding: 2.5px;
-    border: 1px solid black;
-    border-radius: 4px;
-    font-size: 0.75em;
-}
 
 #enfeite {
     height:100px;
