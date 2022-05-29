@@ -63,36 +63,46 @@
     </nav>
 
     <main>
+        <div class="container">
+            <div class="row p-5 align-items-center">
+                <div class="col-sm-4">
         <form>
             <fieldset>
                 <legend>Cadastro</legend>
+                <div class="mb-1">
+                <label for="nome" class="form-label">Nome de usuário:</label><br>
 
-                <label for="nome">Nome de usuário:</label><br>
+                <input type="text" class="form-control" id="nome"><br>                
+            </div>
+            <div class="mb-1">
+                <label for="email" class="form-label">Email:</label><br>
 
-                <input type="text" name="nome" id="nome"><br>                
+                <input type="email" class="form-control" id="email"><br>
+            </div>
+                <div class="mb-1">
+                <label for="senha" class="form-label">Senha:</label><br>
 
-                <label for="email">Email:</label><br>
+                <input type="password" class="form-control" id="senha"><br>
+            </div>
+             <div class="mb-1">
+                <label for="confirmacao" class="form-label">Confirmar senha:</label><br>
 
-                <input type="email" name="email" id="email"><br>
-
-                <label for="senha">Senha:</label><br>
-
-                <input type="password" name="senha" id="senha"><br>
-
-                <label for="confirmacao">Confirmar senha:</label><br>
-
-                <input type="password" name="confirmacao" id="confirmacao"><br>              
-
-                <input type = "submit" value ="Cadastrar-se">
+                <input type="password" class="form-control" id="confirmacao"><br>     
+            </div>         
+                <div class="mb-1">
+                <input type = "submit" class="btn btn-secondary" value ="Cadastrar-se">
+            </div>
             </fieldset>
         </form>
-
+    </div>
+    <div class="col-sm-3">
         <div id="enfeite">
 
             <p>ou</p>
 
         </div>
-
+    </div>
+    <div class="col-sm-5">
         <div>
             <h2>Cadastre-se com uma rede social</h2>
 
@@ -102,7 +112,10 @@
                 <img src="../imagens/facebooklogo.png" alt="logo facebook" class="facebookgoogle">
             </div>
         </div>
-    </main>
+    </div>
+    </div>
+    </div>
+</main>
 
     <footer>
         <p>Entre em contato com (99) +99 99999-9999</p>
