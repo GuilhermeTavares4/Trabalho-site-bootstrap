@@ -9,18 +9,14 @@
     margin-top: 70px;
 }
 
-select, input{
-    height:30px;
-    margin-left: 5px;
-    padding: 5px;
-    border: 1px solid gray;
-    border-radius: 5px;
-    font-size:15px;
-}
 
 form{
     display: flex;
     width: 50%;
     margin-top: 100px;
     justify-content: space-around;
+}
+
+form > *{
+    margin: 0 3px 0 3px!important;
 }
