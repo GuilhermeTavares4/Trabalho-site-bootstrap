@@ -21,3 +21,7 @@ input{
 .form-label{
     font-size: 20px;
 }
+
+.container > h1{
+    margin-left: 5px;
+}
