@@ -63,32 +63,57 @@
     </nav>
 
     <main>
+        <div class="container">
         <h1>Meu carrinho 🛒</h1>
 
-        <div id="carrinho">
-            <div id="primeiracoluna">
+        <div class="row p-2">
+            <div class="col-md-6">
                 <div class="compras"><h2>Compras</h2></div>
+            </div>
+                <div class="col-md-6">
+        <form>
+      <label for="cep" class="form-label" >Cep:</label>
 
+         <input type="text" id="cep" class="form-control" placeholder="XXXXX-XXX">
+        </form>
+                    </div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col-md-6">
                 <div class="compras"><h2>Compras</h2></div>
+</div>
+<div class="col-md-6 align-self-center">
+    <span class="preco">Frete: R$XX,XX</span>
                 
-                <div class="compras"><h2>Compras</h2></div><br><br>
+</div>
+                </div>
+                <div class="row p-2">
+                    <div class="col-md-6">
+                        <div class="compras"><h2>Compras</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6 align-self-center">
+                <span class="preco">Total: R$XX,XX</span>
+                    </div>
+                </div>
+                <div class="row p-2">
+                    <div class="col-md-6 align-self-center">
+                    <span class="preco">Subtotal: R$XX,XX</span>
+                    </div>
+                    <div class="col-md-6 align-self-center">
+                        <a href="./pagamento.html"><span class="btn btn-secondary" >Ir para o pagamento</span></a>
+                    </div>
+                </div>
+            
 
-                <span class="preco">Subtotal: R$XX,XX</span><br>
-            </div>
+           
+             
 
-            <div id="segundacoluna">
-                <form method="post" action ="naomudanada">
-                    <label for="cep">Cep:</label><br>
+                
 
-                    <input type="text" id="cep" name="cep" placeholder="XXXXX-XXX"><br><br>
-                </form> 
 
-                <span class="preco">Frete: R$XX,XX</span><br><br>
-
-                <span class="preco">Total: R$XX,XX</span><br><br>
-
-                <a href="./pagamento.html"><span id="pag">Ir para o pagamento</span></a>
-            </div>
+               
+            
         </div>
     </main>
 
