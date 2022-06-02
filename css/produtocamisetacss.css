@@ -57,10 +57,5 @@ td,tr,th {
     width: 80%;
 }
 nav{
-    z-index:2!important;
+    z-index:1!important;
 }
-#carrossel{
-z-index:1!important;    
-}
-
-
