@@ -43,8 +43,6 @@ td,tr,th {
 
 .carousel-inner{
     width:300px!important;
-    padding:0px!important;
-    flex-grow:0!important;
 }
 
 [class^="carousel-control"]{
@@ -54,6 +52,12 @@ td,tr,th {
 
 [class^="carousel-control"]:hover {
     background-color:rgb(226, 226, 226);
+}
+.row{
+    width: 80%;
+}
+nav{
+    z-index:1;
 }
 
 
