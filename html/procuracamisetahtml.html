@@ -11,192 +11,192 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-<header>
-    <a href="./index.html" class="logo"><img src="../imagens/logo3.png" alt="Logo do site"></a>
+    <header>
+        <a href="./index.html" class="logo"><img src="../imagens/logo3.png" alt="Logo do site"></a>
 
-    <a href="./index.html" class="banner"><img src="../imagens/v5.png" alt="Banner do site"></a>
-</header>
+        <a href="./index.html" class="banner"><img src="../imagens/v5.png" alt="Banner do site"></a>
+    </header>
 
-<nav>
-    <div id="nav_1">
-        <a href="./nossaslojashtml.html">Nossas lojas</a>
+    <nav>
+        <ul class="nav nav-justified" id="nav_1">
+            <li class="nav-item"><a class="nav-link pt-4" href="./nossaslojashtml.html">Nossas lojas</a></li>
 
-        <a href="./carrinhohtml.html">Carrinho 🛒</a>
+            <li class="nav-item"><a class="nav-link pt-4" href="./carrinhohtml.html">Carrinho 🛒</a></li>
 
-        <a href="./sobre.html">Quem somos nós?</a>
+            <li class="nav-item"><a class="nav-link pt-4" href="./sobre.html">Quem somos nós?</a></li>
 
-        <div>
-            <a href="./loginhtml.html">Login</a>
+            <li class="nav-item">
+                <a class="nav-link h-50" href="./loginhtml.html">Login</a>
 
-            <a href="./cadastrohtml.html">Criar conta</a>
-        </div>
-    </div>
+                <a class="nav-link h-50" href="./cadastrohtml.html">Criar conta</a>
+            </li>
+        </ul>
 
-    <div id="nav_2">
-        <div class="categoria">
-            <p>Masculino ⬇</p>
-            <div class="extensao">
-                <a href="./procuracamisetahtml.html">Camisas 👕</a>
-                <a href="./procuracamisetahtml.html">Jaquetas 🧥</a>
-                <a href="./procuracamisetahtml.html">Calças 👖</a>
-            </div>
-        </div>
+        <ul class="nav nav-justified" id="nav_2">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Masculino</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./procuracamisetahtml.html">Camisas 👕</a></li>
+                    <li><a class="dropdown-item" href="./procuracamisetahtml.html">Jaquetas 🧥</a></li>
+                    <li><a class="dropdown-item" href="./procuracamisetahtml.html">Calças 👖</a></li>
+                </ul>
+            </li>
 
-        <div class="categoria">
-            <p>Feminino ⬇</p>
-            <div class="extensao">
-                <a href="./procuracamisetahtml.html">Camisas 👕</a>
-                <a href="./procuracamisetahtml.html">Jaquetas 🧥</a>
-                <a href="./procuracamisetahtml.html">Calças 👖</a>
-            </div>
-        </div>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Feminino</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./procuracamisetahtml.html">Camisas 👕</a></li>
+                    <li><a class="dropdown-item" href="./procuracamisetahtml.html">Jaquetas 🧥</a></li>
+                    <li><a class="dropdown-item" href="./procuracamisetahtml.html">Calças 👖</a></li>
+                </ul>
+            </li>
 
-        <div class="categoria">
-            <p>Infantil ⬇</p>
-            <div class="extensao">
-                <a href="./procuracamisetahtml.html">Camisas 👕</a>
-                <a href="./procuracamisetahtml.html">Jaquetas 🧥</a>
-                <a href="./procuracamisetahtml.html">Calças 👖</a>
-            </div>
-        </div>
-    </div>
-</nav>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Infantil</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./procuracamisetahtml.html">Camisas 👕</a></li>
+                    <li><a class="dropdown-item" href="./procuracamisetahtml.html">Jaquetas 🧥</a></li>
+                    <li><a class="dropdown-item" href="./procuracamisetahtml.html">Calças 👖</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
 
     <main>
         <h1>Masculino / Camisas (Exemplo)</h1>
 
-        <div id="mostrador">
-            <a href="./produtocamisetahtml.html">
-                <figure class="produtos">
-                    <img src="../imagens/camisa.jpg" alt="camisa" class="imagem">
+        <div class="d-flex flex-wrap justify-content-around mt-4">
+            <a href="./produtocamisetahtml.html" class="m-2">
+                <figure class="produtos d-flex rounded flex-column p-3">
+                    <img src="../imagens/camisa.jpg" alt="camisa" class="img-fluid rounded">
                     <figcaption class="nome">Camisa de banda</figcaption>
                     <figcaption class="custo">R$5,00</figcaption>
                 </figure>
             </a>
 
-            <a href="./produtocamisetahtml.html">
-                <figure class="produtos">
-                    <img src="../imagens/camisa.jpg" alt="camisa" class="imagem">
+            <a href="./produtocamisetahtml.html" class="m-2">
+                <figure class="produtos d-flex rounded flex-column p-3">
+                    <img src="../imagens/camisa.jpg" alt="camisa" class="img-fluid rounded">
                     <figcaption class="nome">Camisa de banda</figcaption>
                     <figcaption class="custo">R$5,00</figcaption>
                 </figure>
             </a>
 
-            <a href="./produtocamisetahtml.html">
-                <figure class="produtos">
-                    <img src="../imagens/camisa.jpg" alt="camisa" class="imagem">
+            <a href="./produtocamisetahtml.html" class="m-2">
+                <figure class="produtos d-flex rounded flex-column p-3">
+                    <img src="../imagens/camisa.jpg" alt="camisa" class="img-fluid rounded">
                     <figcaption class="nome">Camisa de banda</figcaption>
                     <figcaption class="custo">R$5,00</figcaption>
                 </figure>
             </a>
 
-            <a href="./produtocamisetahtml.html">
-                <figure class="produtos">
-                    <img src="../imagens/camisa.jpg" alt="camisa" class="imagem">
+            <a href="./produtocamisetahtml.html" class="m-2">
+                <figure class="produtos d-flex rounded flex-column p-3">
+                    <img src="../imagens/camisa.jpg" alt="camisa" class="img-fluid rounded">
                     <figcaption class="nome">Camisa de banda</figcaption>
                     <figcaption class="custo">R$5,00</figcaption>
                 </figure>
             </a>
 
-            <a href="./produtocamisetahtml.html">
-                <figure class="produtos">
-                    <img src="../imagens/camisa.jpg" alt="camisa" class="imagem">
+            <a href="./produtocamisetahtml.html" class="m-2">
+                <figure class="produtos d-flex rounded flex-column p-3">
+                    <img src="../imagens/camisa.jpg" alt="camisa" class="img-fluid rounded">
                     <figcaption class="nome">Camisa de banda</figcaption>
                     <figcaption class="custo">R$5,00</figcaption>
                 </figure>
             </a>
 
-            <a href="./produtocamisetahtml.html">
-                <figure class="produtos">
-                    <img src="../imagens/camisa.jpg" alt="camisa" class="imagem">
+            <a href="./produtocamisetahtml.html" class="m-2">
+                <figure class="produtos d-flex rounded flex-column p-3">
+                    <img src="../imagens/camisa.jpg" alt="camisa" class="img-fluid rounded">
                     <figcaption class="nome">Camisa de banda</figcaption>
                     <figcaption class="custo">R$5,00</figcaption>
                 </figure>
             </a>
 
-            <a href="./produtocamisetahtml.html">
-                <figure class="produtos">
-                    <img src="../imagens/camisa.jpg" alt="camisa" class="imagem">
+            <a href="./produtocamisetahtml.html" class="m-2">
+                <figure class="produtos d-flex rounded flex-column p-3">
+                    <img src="../imagens/camisa.jpg" alt="camisa" class="img-fluid rounded">
                     <figcaption class="nome">Camisa de banda</figcaption>
                     <figcaption class="custo">R$5,00</figcaption>
                 </figure>
             </a>
 
-            <a href="./produtocamisetahtml.html">
-                <figure class="produtos">
-                    <img src="../imagens/camisa.jpg" alt="camisa" class="imagem">
+            <a href="./produtocamisetahtml.html" class="m-2">
+                <figure class="produtos d-flex rounded flex-column p-3">
+                    <img src="../imagens/camisa.jpg" alt="camisa" class="img-fluid rounded">
                     <figcaption class="nome">Camisa de banda</figcaption>
                     <figcaption class="custo">R$5,00</figcaption>
                 </figure>
             </a>
 
-            <a href="https://meh-the-learner.github.io/Site_0/html_folder/main.html" id="ad">
-                <img src="../imagens/adlogo.png" alt="logo do anuncio">
-                <div>
+            <a href="https://meh-the-learner.github.io/Site_0/html_folder/main.html" id="ad" class="d-flex justify-content-around">
+                <img src="../imagens/adlogo.png" alt="logo do anuncio" class="img-fluid">
+                <div class="d-flex flex-column">
                     <span>Interessado em anime?</span>
                     <span>Não perca!</span>
                 </div>
             </a>
 
-            <a href="./produtocamisetahtml.html">
-                <figure class="produtos">
-                    <img src="../imagens/camisa.jpg" alt="camisa" class="imagem">
+            <a href="./produtocamisetahtml.html" class="m-2">
+                <figure class="produtos d-flex rounded flex-column p-3">
+                    <img src="../imagens/camisa.jpg" alt="camisa" class="img-fluid rounded">
                     <figcaption class="nome">Camisa de banda</figcaption>
                     <figcaption class="custo">R$5,00</figcaption>
                 </figure>
             </a>
 
-            <a href="./produtocamisetahtml.html">
-                <figure class="produtos">
-                    <img src="../imagens/camisa.jpg" alt="camisa" class="imagem">
+            <a href="./produtocamisetahtml.html" class="m-2">
+                <figure class="produtos d-flex rounded flex-column p-3">
+                    <img src="../imagens/camisa.jpg" alt="camisa" class="img-fluid rounded">
                     <figcaption class="nome">Camisa de banda</figcaption>
                     <figcaption class="custo">R$5,00</figcaption>
                 </figure>
             </a>
 
-            <a href="./produtocamisetahtml.html">
-                <figure class="produtos">
-                    <img src="../imagens/camisa.jpg" alt="camisa" class="imagem">
+            <a href="./produtocamisetahtml.html" class="m-2">
+                <figure class="produtos d-flex rounded flex-column p-3">
+                    <img src="../imagens/camisa.jpg" alt="camisa" class="img-fluid rounded">
                     <figcaption class="nome">Camisa de banda</figcaption>
                     <figcaption class="custo">R$5,00</figcaption>
                 </figure>
             </a>
 
-            <a href="./produtocamisetahtml.html">
-                <figure class="produtos">
-                    <img src="../imagens/camisa.jpg" alt="camisa" class="imagem">
+            <a href="./produtocamisetahtml.html" class="m-2">
+                <figure class="produtos d-flex rounded flex-column p-3">
+                    <img src="../imagens/camisa.jpg" alt="camisa" class="img-fluid rounded">
                     <figcaption class="nome">Camisa de banda</figcaption>
                     <figcaption class="custo">R$5,00</figcaption>
                 </figure>
             </a>
 
-            <a href="./produtocamisetahtml.html">
-                <figure class="produtos">
-                    <img src="../imagens/camisa.jpg" alt="camisa" class="imagem">
+            <a href="./produtocamisetahtml.html" class="m-2">
+                <figure class="produtos d-flex rounded flex-column p-3">
+                    <img src="../imagens/camisa.jpg" alt="camisa" class="img-fluid rounded">
                     <figcaption class="nome">Camisa de banda</figcaption>
                     <figcaption class="custo">R$5,00</figcaption>
                 </figure>
             </a>
 
-            <a href="./produtocamisetahtml.html">
-                <figure class="produtos">
-                    <img src="../imagens/camisa.jpg" alt="camisa" class="imagem">
+            <a href="./produtocamisetahtml.html" class="m-2">
+                <figure class="produtos d-flex rounded flex-column p-3">
+                    <img src="../imagens/camisa.jpg" alt="camisa" class="img-fluid rounded">
                     <figcaption class="nome">Camisa de banda</figcaption>
                     <figcaption class="custo">R$5,00</figcaption>
                 </figure>
             </a>
 
-            <a href="./produtocamisetahtml.html">
-                <figure class="produtos">
-                    <img src="../imagens/camisa.jpg" alt="camisa" class="imagem">
+            <a href="./produtocamisetahtml.html" class="m-2">
+                <figure class="produtos d-flex rounded flex-column p-3">
+                    <img src="../imagens/camisa.jpg" alt="camisa" class="img-fluid rounded">
                     <figcaption class="nome">Camisa de banda</figcaption>
                     <figcaption class="custo">R$5,00</figcaption>
                 </figure>
             </a>
 
-            <a href="./produtocamisetahtml.html">
-                <figure class="produtos">
-                    <img src="../imagens/camisa.jpg" alt="camisa" class="imagem">
+            <a href="./produtocamisetahtml.html" class="m-2">
+                <figure class="produtos d-flex rounded flex-column p-3">
+                    <img src="../imagens/camisa.jpg" alt="camisa" class="img-fluid rounded">
                     <figcaption class="nome">Camisa de banda</figcaption>
                     <figcaption class="custo">R$5,00</figcaption>
                     </figure>
@@ -204,10 +204,64 @@
             </div>
     </main>
 
-    <footer>
-        <p>Entre em contato com (99) +99 99999-9999</p>
+    <footer class="d-flex flex-wrap justify-content-around">
+        <div>
+            <div class="row">
+                <div class="col-12">Masculino</div>
+            </div>
 
-        <p>Ou use nosso e-maiL: guideb2@hotmail.com</p>
+            <div class="row">
+                <div class="col-12"><a href="./procuracamisetahtml.html">Camisas</a></div>
+            </div>
+
+            <div class="row">
+                <div class="col-12"><a href="./procuracamisetahtml.html">Jaquetas</a></div>
+            </div>
+
+            <div class="row">
+                <div class="col-12"><a href="./procuracamisetahtml.html">Calças</a></div>
+            </div>
+        </div>
+        <div>
+            <div class="row">
+                <div class="col-12">Feminino</div>
+            </div>
+
+            <div class="row">
+                <div class="col-12"><a href="./procuracamisetahtml.html">Camisas</a></div>
+            </div>
+
+            <div class="row">
+                <div class="col-12"><a href="./procuracamisetahtml.html">Jaquetas</a></div>
+            </div>
+
+            <div class="row">
+                <div class="col-12"><a href="./procuracamisetahtml.html">Calças</a></div>
+            </div>
+        </div>
+        <div>
+            <div class="row">
+                <div class="col-12">Infantil</div>
+            </div>
+
+            <div class="row">
+                <div class="col-12"><a href="./procuracamisetahtml.html">Camisas</a></div>
+            </div>
+
+            <div class="row">
+                <div class="col-12"><a href="./procuracamisetahtml.html">Jaquetas</a></div>
+            </div>
+
+            <div class="row">
+                <div class="col-12"><a href="./procuracamisetahtml.html">Calças</a></div>
+            </div>
+        </div>
+
+        <div class="text-center p-3 flex-fill">
+            <p>Entre em contato com (99) +99 99999-9999</p>
+
+            <p>Ou use nosso e-mail: guideb2@hotmail.com</p>
+        </div>
     </footer>
 </body>
 </html>

@@ -1,20 +1,10 @@
-#ofertas {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
 #ofertas > a {
-    flex-grow: 1;
     margin: 25px 15px 10px 15px;
 }
 
 .produtos {
-    display: flex;
-    flex-direction: row;
     align-items: center;
     padding: 10px 10px 10px 10px;
-    border-radius: 5px;
 }
 
 a:hover > .produtos {
@@ -22,19 +12,11 @@ a:hover > .produtos {
     background-color: rgb(228, 212, 188);
 }
 
-.imagem {
-    height: 300px;
-    border-radius: 5px;
-}
-
 a:hover > .produtos > .imagem {
     box-shadow: 0px 0px 5px gray;
 }
 
 .descricao {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
     text-align: center;
 }
 

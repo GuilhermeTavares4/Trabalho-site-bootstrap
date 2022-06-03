@@ -60,9 +60,12 @@ nav {
 .dropdown-menu {
     text-align: center!important;
     width: 50%;
-    background-color: rgb(206, 199, 190)!important;
+    background-color: rgb(173, 162, 148)!important;
 }
 
+.dropdown-menu a {
+    background-color: rgb(192, 181, 168)!important;
+}
 
 
 
@@ -89,7 +92,7 @@ nav {
 main {
     min-height: 70vh;
     min-width: 89%;
-    padding: 0 5.5% 30px 5.5%;
+    padding: 0 5.5vw 30px 5.5vw;
     background-color: antiquewhite;
 }
 
@@ -112,4 +115,12 @@ footer > p {
     padding-top: 10px;
     text-align: center;
     color: rgb(122, 115, 104);
+}
+
+footer > div > div:first-child {
+    font-weight: bold;;
+}
+
+footer > div > div {
+    padding: 0 3vw 0 3vw;
 }

@@ -1,29 +1,10 @@
-#mostrador {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 10px;
-    justify-content: space-around;
-}
-
-#mostrador > a {
-    margin: 15px 15px 0 15px;
-}
-
 .produtos {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    padding: 10px 10px 10px 10px;
-    border-radius: 5px;
 }
 
 a:hover > .produtos {
     box-shadow: 0px 0px 5px gray;
     background-color: rgb(228, 212, 188);
-}
-
-.imagem {
-    border-radius: 5px;
 }
 
 a:hover > .produtos > .imagem {
@@ -45,8 +26,6 @@ a:hover > .produtos > .imagem {
 }
 
 #ad {
-    display: flex;
-    justify-content: space-around;
     height: 100px;
     width: 93%;
     padding: 0 20% 0 20%;
@@ -54,8 +33,6 @@ a:hover > .produtos > .imagem {
 }
 
 #ad > div {
-    display: flex;
-    flex-direction: column;
     text-align: center;
 }
 
